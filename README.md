@@ -1,6 +1,6 @@
 # Unity
-<small>Unity Scripts</small><br>
-<small>February 28th, 2020</small>
+<em>Unity Scripts</em><br>
+<em>February 28th, 2020</em>
 
 
 <h4>Original Scripts</h4>
