@@ -14,11 +14,14 @@ public class PlayerController : MonoBehaviour
 
     private Vector3 moveDirection;
     
+    //This creates the Animator
+    public Animator anim;
 
     // Start is called before the first frame update
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        anim = GetComponent<Animator>();
         jumpForce = moveSpeed * 0.5f;
         gravityScale = moveSpeed * 0.1f;
     }
@@ -46,9 +49,10 @@ public class PlayerController : MonoBehaviour
         moveDirection.y = moveDirection.y + (Physics.gravity.y * gravityScale * Time.deltaTime);
 
         controller.Move(moveDirection * Time.deltaTime);
-
-        //animator.SetBool("isGrounded", controller.isGrounded);
-        //animator.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Vertical"))));
+        
+        //Send info to Animator
+        //anim.SetBool("isGrounded", controller.isGrounded);
+        //anim.SetFloat("Speed", (Mathf.Abs(Input.GetAxis("Vertical")) + Mathf.Abs(Input.GetAxis("Vertical"))));
 
     }
 }
