@@ -59,4 +59,28 @@ public class Health : MonoBehaviour
         healthBarUI.SetActive(false);//Hide Healthbar
         Destroy(gameObject, 5f);
     }
+    
+    
+    //Health Pickup
+    //if (collision.transform.tag == "HealthPickup")
+    //{
+
+    //    if (currentHealth < maxHealth)
+    //    {
+    //        currentHealth += 2;
+    //        healthText.text = "" + currentHealth;
+    //        healthSlider.value = CalculateHealth();
+    //        Debug.Log("Yummmmmm!");
+    //    }
+    //    else if (currentHealth >= maxHealth)
+    //    {
+    //        currentHealth = maxHealth;
+    //        healthText.text = "" + currentHealth;
+    //        healthSlider.value = CalculateHealth();
+    //    }
+
+    //    Destroy(collision.gameObject);
+    //}
+
+
 }
