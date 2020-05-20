@@ -12,6 +12,7 @@ public class EnemyAi : MonoBehaviour
 
     public float speed;
 
+    private GameObject player;
     Transform target;
     NavMeshAgent agent;
 
@@ -24,7 +25,8 @@ public class EnemyAi : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        target = PlayerManager.instance.player.transform;
+        player = GameObject.FindWithTag("Player");
+        target = player.transform;
         agent = GetComponent<NavMeshAgent>();
 
         speed = agent.speed;
