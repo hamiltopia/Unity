@@ -1,5 +1,13 @@
 # Unity
 <em>Unity Scripts</em><br>
+<em>July 26th, 2020</em>
+
+
+<h4>Original Scripts</h4>
+<strong>Author</strong> KeySmashStudios - https://www.youtube.com/channel/UCjTH16BD451Ncyvdn7H8Gqw<br>
+<strong>EnemyPatrolling</strong>>
+
+<hr>
 <em>February 28th, 2020</em>
 
 
@@ -12,3 +20,4 @@
 <br><br>
 
 I have updated these for my needs.
+
