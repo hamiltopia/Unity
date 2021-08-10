@@ -9,7 +9,7 @@ public class Pickup : MonoBehaviour
 
     void OnTriggerEnter(Collider trigger)
     {
-        if (trigger.gameObject.tag == "Pickup")
+        if (trigger.gameObject.CompareTag("Pickup")
         {
 
             //You can either use a new Vector 3 
