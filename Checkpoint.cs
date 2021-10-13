@@ -2,6 +2,8 @@ using UnityEngine;
  using System.Collections;
  
  public class Checkpoint : MonoBehaviour {
+  
+  //https://www.youtube.com/watch?v=7NehsLWcFIU
      
      void  Start ()
      {
