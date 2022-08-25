@@ -1,0 +1,25 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class waterSpawnOnCollision : MonoBehaviour
+{
+
+    public GameObject respawnPoint;
+
+    void OnTriggerEnter(Collider trigger)
+    {
+        if (trigger.gameObject.CompareTag("Water"))
+        {
+
+            //You can either use a new Vector 3 
+            //this.transform.position = new Vector3(0, 2f, 0);
+
+            //or have a GameObject and get its position
+            this.transform.position = respawnPoint.transform.position;
+            //Where mySpawnGameObject is a public GameObject variable that you assign from the inspector
+
+
+        }
+    }
+}
