@@ -13,7 +13,7 @@ public class Pickup : MonoBehaviour
         {
 
             //You can either use a new Vector 3 
-            trigger.gameObject.SetActive(false); ;
+            trigger.gameObject.SetActive(false);
 
             //or have a GameObject and get its position
             //this.transform.position = mySpawnGameObject.transform.position;
