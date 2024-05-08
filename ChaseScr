@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class ChaseScr : MonoBehaviour
 {
+
+    //https://www.youtube.com/watch?v=zDxezx7_wnM
+
     [Header("Setup")]
     [SerializeField] private SphereCollider triggerSphere;
     [SerializeField] private bool MoveRigidBody = true;
